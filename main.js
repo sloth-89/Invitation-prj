@@ -1,12 +1,12 @@
-// let mainText = document.querySelector(".date")
+// let mainText = document.querySelector(".content", ".daugther")
 
 // window.addEventListener('scroll', function(){
 //     let value = window.scrollY;
 //     console.log("scrollY", value);
 
-//     if(value>900){
-//         mainText.style.animation = "deopacity 1s forwards";
+//     if(value<1800){
+//         mainText.style.animation = "slide 1s";
 //     } else {
-//         mainText.style.animation = "opacity 2s"
+//         mainText.style.animation = "deslide 2s forwards"
 //     }
 // });
