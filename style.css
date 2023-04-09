@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+section{
+    position: relative;
+}
+
+.back img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+@font-face {
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.date{
+    font-size: 9vw;
+    color: #697F69;
+    font-family: 'MapoGoldenPier';
+    text-align: center;
+    position: absolute;
+    top: 9.2%;
+    left: 43%;
+
+    animation: opacity 2s;
+}
+
+@keyframes opacity {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes deopacity{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+#month{
+    margin: 0 auto;
+    font-weight: lighter;
+}
+
+#week{
+    margin: 0 auto;
+    font-size: 50%;
+    color: #C67D87;
+}
+
+#day{
+    margin: 0 auto;
+    color: #81AA81;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: 'Cafe24Shiningstar';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Shiningstar.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.intro{
+    font-size: 12vw;
+    color: #4C4C4C;
+    font-family: 'Cafe24Shiningstar';
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 16%;
+    /* #697F69; */
+    animation: opacity 2s;
+}
+
+#intro1{
+    margin: 0 auto;
+}
+
+#intro2{
+    margin: 0 auto;
+}
+
+#name{
+    color: #697F69;
+}
