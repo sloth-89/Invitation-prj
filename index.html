@@ -11,6 +11,7 @@
 <body>
     <!-- body는 기본적으로 8px이 있다. -->
     
+    
     <section>
         <div class="back">
             <img src="https://i.esdrop.com/d/f/89hebLVCF2/W8YVDU60t9.png">
@@ -30,12 +31,12 @@
             <p id="name">송도갈매기</p>
             <p id="add">인천 연수구 능허대로 151번길 25</p>
         </div>
-        <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            Scroll
-        </a>
+        <p id="scroll">
+            <span id="arrow1"></span>
+            <span id="arrow2"></span>
+            <span id="arrow3"></span>
+            <span id="roll">Scroll</span>
+        </p>
         <div class="content">
             <p>저희를 낳아주시고 사랑으로 길러주신 <br>
                 아버님께서 칠순을 맞으셨습니다. <br>
@@ -57,7 +58,25 @@
             <p id="tell">032)831-0010</p>
         </div>
     </section>
-    <script src="/main.js"></script>
+    <footer>
+        <a href="#" class="btn_gotop">
+            <span class="glyphicon glyphicon-chevron-up">
+            </span>
+        </a>
+        <script>
+            $(window).scroll(function(){
+                if ($(this).scrollTop() > 300){
+                    $('.btn_gotop').show();
+                } else {
+                    $('.btn_gotop').hide();
+                }
+            });
+            $('.btn_gotop').click(function(){
+                $('html, body').animate({scrollTop:0},400);
+                return false;
+            });
+        </script>
+    </footer>
 
 </body>
 </html>
