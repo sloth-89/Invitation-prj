@@ -80,7 +80,7 @@ section{
     text-align: center;
     position: absolute;
     top: 30%;
-    left: 16%;
+    left: 16.2%;
     /* #697F69; */
     animation: opacity 2s;
 }
@@ -111,7 +111,7 @@ section{
     font-weight: bold;
     position: absolute;
     top: 42%;
-    left: 23.2%;
+    left: 23%;
     animation: opacity 2s;
 }
 
@@ -144,8 +144,8 @@ section{
     font-family: 'GmarketSansMedium';
     text-align: center;
     position: absolute;
-    top: 56%;
-    left: 13.2%;
+    top: 56.5%;
+    left: 13.4%;
     animation: opacity 2s;
 }
 
@@ -178,7 +178,7 @@ section{
     text-align: center;
     position: absolute;
     top: 65.3%;
-    left: 28%;
+    left: 28.4%;
     animation: opacity 2s;
 }
 
